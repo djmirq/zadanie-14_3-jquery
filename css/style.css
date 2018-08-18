@@ -1,0 +1,23 @@
+body { background: black; display: flex; vertical-align: middle; align-items: center; justify-content: center; height: 400px; }
+
+#carousel { display: inline-flex; background: #3cdf3c; width: 400px; height: 400px; top: calc(50vh - 200px); overflow: hidden; position: relative; }
+
+#carousel i { position: absolute; font-size: 50px; top: 45%; color: #c2c2c2; }
+
+#carousel i:hover { color: black; cursor: pointer; }
+
+#carousel i:nth-of-type(2) { right: 0px; }
+
+#carousel ul { display: flex; list-style: none; margin: 0; padding: 0; }
+
+#carousel ul li { list-style: none; margin: 0; padding: 0; }
+
+#carouselcontrols { position: absolute; display: inline-flex; align-self: center; justify-content: center; height: 50px; top: 350px; width: 400px; }
+
+#carouselcontrols .active { background-color: black; }
+
+#carouselcontrols div { margin: 3px; border-radius: 50%; min-height: 15px; min-width: 15px; align-self: center; background-color: #ccc; }
+
+#carouselcontrols div:hover { color: black; cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
